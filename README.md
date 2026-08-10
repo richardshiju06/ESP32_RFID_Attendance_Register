@@ -31,6 +31,7 @@ See the wiring details in [`docs/03-wiring.md`](docs/03-wiring.md).
 ## Project images
 
 ![Circuit diagram](images/circuit_diagram.png)
+![Circuit diagram](images/Prototype.png)
 
 ## How the system works
 
