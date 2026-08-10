@@ -1,6 +1,6 @@
 # Software and Firmware
 
-The ESP32 firmware is in [`../code/esp32_rfid_attendance.ino`](../code/esp32_rfid_attendance.ino).
+The ESP32 firmware is in [`../code/esp32_code/esp32_code.ino`](../code/esp32_code/esp32_code.ino).
 
 ## Libraries used
 
