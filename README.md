@@ -70,11 +70,13 @@ Press the button to switch to Registration mode. Scan a new RFID card and its UI
 ESP32-RFID-Attendance/
 │
 ├── README.md
-├── .gitignore
+├── LICENSE.md
+├── CONTRIBUTING.md
 │
 ├── code/
-│   ├── esp32_rfid_attendance.ino
-│   └── google_apps_script.gs
+│   ├── esp32_code/
+│   │       ├── esp32_code.ino
+│   └── appscript_code_for_google_sheets.gs
 │
 ├── docs/
 │   ├── 01-project-overview.md
