@@ -28,10 +28,24 @@ The idea is straightforward: scan an RFID card, let the ESP32 identify the card,
 
 See the wiring details in [`docs/03-wiring.md`](docs/03-wiring.md).
 
-## Project images
+## Project Images
 
-![Circuit diagram](images/circuit_diagram.png)
-![Circuit diagram](images/Prototype.png)
+### Circuit Diagram
+
+![Circuit Diagram](images/circuit_diagram.png)
+
+### Prototype
+
+![Prototype](images/Prototype.jpg)
+
+
+### Final Project- Top View
+
+![Final Project Top View](images/Final%20Project%20%28TV%29.jpg)
+
+### Final Project- Side View
+
+![Final Project](images/Final%20Project%20%28SV%29.jpg)
 
 ## How the system works
 
@@ -73,22 +87,10 @@ ESP32-RFID-Attendance/
 │
 └── images/
     ├── circuit_diagram.png
-    └── project_components.png
+    └── Prototype.jpg
+    └── Final Project (TV).jpg
+    └── Final Project (SV).jpg
 ```
-
-## Important before uploading to GitHub
-
-The original Arduino sketch contains Wi-Fi credentials and a deployed Google Apps Script URL. **Do not publish those values in a public repository.** The version in `code/esp32_rfid_attendance.ino` has been changed to placeholders.
-
-Before using it, replace:
-
-```cpp
-const char* ssid = "YOUR_WIFI_SSID";
-const char* password = "YOUR_WIFI_PASSWORD";
-String Web_App_URL = "YOUR_GOOGLE_APPS_SCRIPT_WEB_APP_URL";
-```
-
-The Apps Script file also uses a placeholder for the Google Sheet ID.
 
 ## Quick start
 
@@ -105,4 +107,4 @@ For the full setup, follow [`docs/06-setup.md`](docs/06-setup.md).
 
 ## License
 
-Add a license if you want other people to reuse the project. MIT is a common choice for personal/student projects.
+This project is licensed under the Apache License 2.0.
