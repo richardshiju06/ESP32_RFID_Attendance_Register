@@ -19,11 +19,11 @@ Create a spreadsheet with `User_Data` and `Attendance` sheets. Follow [`05-googl
 
 ## 4. Deploy the backend
 
-Open Apps Script, add `code/google_apps_script.gs`, set the Sheet ID and deploy it as a Web App.
+Open Apps Script, add `code/appscript_code_for_google_sheets.gs`, set the Sheet ID and deploy it as a Web App.
 
 ## 5. Configure the ESP32
 
-Open `code/esp32_rfid_attendance.ino` and change these three values:
+Open `code/esp32_code/esp32_code.ino` and change these three values:
 
 ```cpp
 const char* ssid = "YOUR_WIFI_SSID";
