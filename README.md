@@ -32,8 +32,6 @@ See the wiring details in [`docs/03-wiring.md`](docs/03-wiring.md).
 
 ![Circuit diagram](images/circuit_diagram.png)
 
-![Project components](images/project_components.png)
-
 ## How the system works
 
 ### Attendance
