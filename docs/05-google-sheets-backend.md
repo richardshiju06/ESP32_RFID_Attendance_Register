@@ -1,6 +1,6 @@
 # Google Sheets Backend
 
-The file [`../code/google_apps_script.gs`](../code/google_apps_script.gs) is the backend used by the ESP32.
+The file [`../code/appscript_code_for_google_sheets.gs`](../code/appscript_code_for_google_sheets.gs) is the backend used by the ESP32.
 
 ## Spreadsheet structure
 
